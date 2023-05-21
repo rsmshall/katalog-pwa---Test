@@ -111,10 +111,12 @@ footer a:hover {
 	width: 100%;
 	text-align: center;
 	background-position: center;
-	background-image: linear-gradient(to right,
+	background-image: 
+				image-set(
+					linear-gradient(to right,
 					rgba(14, 236, 151, 0.65) ,
 					rgba(128, 13, 223, 0.65)), 
-					url("../public/images/heros/hero-image_4.jpg");
+					url("../public/images/heros/hero-image_4.jpg"));
 	background-position: center;
 	background-color: Black !important
 }
